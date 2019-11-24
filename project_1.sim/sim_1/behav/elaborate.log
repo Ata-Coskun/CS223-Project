@@ -1,0 +1,44 @@
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 28a36bae62af4631809fe12fa7437cb3 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot topModule_behav xil_defaultlib.topModule xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port reset [D:/Users/TEMP.PCLABS.000/Desktop/Project_files/project_1/project_1.srcs/sources_1/new/topModule.sv:73]
+WARNING: [VRFC 10-278] actual bit length 3 differs from formal bit length 4 for port CO [D:/Users/TEMP.PCLABS.000/Desktop/Project_files/Ready_Modules/steppermotor_wrapper.sv:595]
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 4 for port CO [D:/Users/TEMP.PCLABS.000/Desktop/Project_files/Ready_Modules/steppermotor_wrapper.sv:614]
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 4 for port CO [D:/Users/TEMP.PCLABS.000/Desktop/Project_files/Ready_Modules/steppermotor_wrapper.sv:620]
+WARNING: [VRFC 10-278] actual bit length 3 differs from formal bit length 4 for port CO [D:/Users/TEMP.PCLABS.000/Desktop/Project_files/Ready_Modules/stepmotor.sv:308]
+WARNING: [VRFC 10-278] actual bit length 3 differs from formal bit length 4 for port CO [D:/Users/TEMP.PCLABS.000/Desktop/Project_files/Ready_Modules/stepmotor.sv:390]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port O [D:/Users/TEMP.PCLABS.000/Desktop/Project_files/Ready_Modules/keypad4X4.sv:523]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port CO [D:/Users/TEMP.PCLABS.000/Desktop/Project_files/Ready_Modules/SevSeg_4digit.sv:314]
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 4 for port O [D:/Users/TEMP.PCLABS.000/Desktop/Project_files/Ready_Modules/SevSeg_4digit.sv:317]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.lfsr
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.VCC
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.x_lut3_mux4
+Compiling module unisims_ver.x_lut3_mux4_reduced_0
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.sffsrce_fdre
+Compiling module unisims_ver.FDRE
+Compiling module unisims_ver.CARRY4
+Compiling module xil_defaultlib.stepmotor
+Compiling module xil_defaultlib.steppermotor_wrapper
+Compiling module unisims_ver.FDRE(INIT=1'b1)
+Compiling module xil_defaultlib.keypad4X4
+Compiling module xil_defaultlib.mappingTable
+Compiling module xil_defaultlib.SevSeg_4digit
+Compiling module xil_defaultlib.topModule
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot topModule_behav
